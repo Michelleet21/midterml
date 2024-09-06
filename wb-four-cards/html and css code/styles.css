@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;;
+}
+
+.head{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.h1{
+    color: #4C4E61;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.h2{
+    color: #4C4E61;
+    font-size: 32px;
+}
+
+.p{
+    color: #89858590;
+}
+
+.todo{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo p{
+    margin: 0;
+    color:  #A3A5AE;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.todo img{
+    float: right;
+    transform: translateX(-10px);
+    transform: translateY(50px);
+}
+
+.cuadrado-azul{
+    max-width: 350px;
+    height: 250px;
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 28px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    color: #4C4E61;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-top: 4px solid #45D3D3;
+}
+
+
+.cuadrado-rojo{
+    max-width: 350px;
+    height: 250px;
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 28px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    color: #4C4E61;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-top: 4px solid #EA5353;
+}
+
+
+.cuadrado-naranja{
+    max-width: 350px;
+    height: 250px;
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 28px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    color: #4C4E61;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-top: 4px solid #FCAF4A;
+}
+
+
+.cuadrado-blue{
+    max-width: 350px;
+    height: 250px;
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 28px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    color: #4C4E61;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-top: 4px solid #549EF2;
+}
